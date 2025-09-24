@@ -1,0 +1,50 @@
+{
+  "name": "db-visualizer-backend",
+  "version": "1.0.0",
+  "description": "Node.js Express backend providing a REST API for database visualization and management.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "eslint .",
+    "prepare": "echo \"No prepare step\""
+  },
+  "keywords": [
+    "express",
+    "database",
+    "visualizer",
+    "postgresql",
+    "mysql",
+    "sqlite",
+    "mongodb",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "mongodb": "^6.9.0",
+    "mysql2": "^3.11.3",
+    "pg": "^8.13.0",
+    "pg-promise": "^11.9.1",
+    "sqlite3": "^5.1.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^17.10.3",
+    "eslint-plugin-promise": "^6.4.0",
+    "nodemon": "^3.1.7"
+  }
+}
